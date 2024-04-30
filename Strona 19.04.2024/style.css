@@ -1,0 +1,74 @@
+body{
+    background-image: url('chipsy.avif');
+    margin: 0;
+}
+
+.menu{
+    position: sticky;
+    top: 0px;
+    background-color: rgb(226, 186, 5);
+    width: 100%;
+    height: 50px;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+body *{
+    font-family: Calibri;
+    
+}
+
+.kontakt{
+    border: none;
+    border-radius: 15px;
+    padding: 11px;
+    width: 100px;
+    transition-duration: 0.4s;
+    background-color: rgb(243, 213, 81);
+}
+
+.kontakt:hover{
+    cursor: pointer;
+    padding: 14px;
+    transition-duration: 0.4s;
+}
+
+img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#grid{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    margin-left: auto;
+    margin-right: auto;
+    width:fit-content;
+}
+
+.kreska{
+    border: none;
+    background-color: rgb(226, 186, 5);
+    width: 100%;
+    height: 3px;
+}
+footer{
+    background-color: rgb(226, 186, 5);
+    margin-bottom: 0px;
+    padding-bottom: 100px;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+img:hover{
+    width: 240px;
+    transition-duration: 0.4s;
+}
+.yt{
+    border-radius: 25px;
+}
+
+.yt:hover{
+    transition-duration: 0.4s;
+
+}

@@ -1,0 +1,35 @@
+body{
+    background-color:rgb(229, 140, 6) ;
+}
+
+form{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: fit-content;
+    border: 3px solid rgb(163, 68, 0);
+    padding: 15px;
+    border-radius: 25px;
+}
+
+form, input{
+    display: block;
+}
+
+.pole{
+    min-width: 200px;
+    border-radius: 20px;
+    border: 0px;
+    min-height: 25px;
+    padding: 3px;
+}
+
+#send{
+    padding: 10px;
+    width: 150px;
+    border: none;
+    background-color: rgb(163, 68, 0);
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}

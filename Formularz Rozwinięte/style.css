@@ -1,0 +1,58 @@
+body{
+    background-color:rgb(178, 200, 221) ;
+    transition: background-color 0.5s ease;
+}
+
+form{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: fit-content;
+    border: 6px double rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 25px;
+}
+
+form, input{
+    display: block;
+}
+
+.pole{
+    min-width: 200px;
+    border-radius: 20px;
+    border: 0px;
+    min-height: 25px;
+    padding: 3px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+#send, #clr{
+    padding: 10px;
+    width: 150px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-right: auto;
+
+}
+
+body *{
+    font-family: Cambria;
+}
+
+.powrot{
+    padding: 10px;
+    width: 150px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover{
+    cursor: pointer;
+}

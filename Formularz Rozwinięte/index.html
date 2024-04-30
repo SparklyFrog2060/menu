@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+   <form action="send.html" method="get">
+    <label>Imię: </label>
+    <input type="text" class="pole" id="imie" name="imie" maxlength="57" minlength="3" placeholder="Wprowadź imię" >
+    <br>
+
+    <label>Nazwisko: </label>
+    <input type="text" class="pole" id="nazwisko" name="nazwisko" maxlength="57" minlength="3" placeholder="Wprowadź nazwisko" >
+    <br>
+
+    <label>Hasło: </label>
+    <input type="password" class="pole" id="password" name="password" minlength="6" maxlength="30" placeholder="Hasło" >
+    <br>
+
+    <label>E-mail: </label>
+    <input type="email" class="pole" id="email" name="email"  placeholder="E-mail">
+    <br>
+
+    <label>Data Urodzenia: </label>
+    <input type="date" class="pole" id="uro" name="uro" value="2013-03-14" >
+    <br>
+
+    <label>Numer Domu: </label>
+    <input type="number" class="pole" id="nrDom" name="nrDom" max="10000" min="1"  placeholder="Nr Domu">
+    <br>
+
+    <label>Czy masz ukończone 18 lat? </label>
+    <div style="display: flex;">
+        <label>Tak, mam</label><input class="check" type="radio" id="18lat" name="18lat" value="mam" >
+    </div>
+
+    <div style="display: flex;">
+        <label>Nie, nie mam</label><input class="check" type="radio" id="18lat" name="18lat" value="nie mam" >
+    </div>
+    
+    <br>
+
+    <div style="display: flex;">
+        <label>Czy nie jesteś robotem? </label>
+        <input type="checkbox" >
+    </div>
+    <br>
+
+    <input type="submit" value="Zarejestruj się!" id="send">
+   </form>
+
+   <form action="send.html" method="get">
+    <div style="display: flex;">
+        <label>Kolor Strony:</label><input type="color" id="bg-color">
+    </div>
+    
+    <br>
+    <input type="submit" value="Zastosuj!" id="clr" class="kolorciu">
+   </form>
+
+   <script>
+        document.getElementById('clr').addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent the form from submitting (for demonstration purposes)
+            var selectedColor = document.getElementById('bg-color').value;
+            document.body.style.backgroundColor = selectedColor;
+        });
+   </script>
+</body>
+</html>

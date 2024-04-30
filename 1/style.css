@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+button:hover{
+    background: linear-gradient(67deg, #38A100, #4BD800);
+    transition-duration: 0.7s;
+    cursor:pointer;
+    color: #fff;
+    background-color: #4BD800;
+
+    /* opacity: 0.7; */
+}
+
+button{
+    background: linear-gradient(67deg, #4BD800, transparent)#38A100;
+    transition-duration: 0.7s;
+    border: none;
+    width: 150px;
+    height: 35px;
+    border-radius: 15px;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 1s;
+}
+
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0px
+    
+}
+
+th, td{
+    width: 250px;
+    text-align: center;
+    
+}
+
+img{
+
+    height: 200px;
+    width: 200px;
+}
+
+iframe{
+    height: 200px;
+    width: 355px;
+}
+
+th{
+    text-transform: uppercase;
+    font-size: 25px;
+    padding: 20px;
+    border-bottom: 3px solid black;
+    background-color: #4BD800;
+    position: sticky;
+    top: 0;
+}
+
+

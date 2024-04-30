@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <form action="send.html" method="get">
+    <label>Imię: </label>
+    <input type="text" class="pole" id="imie" name="imie" maxlength="57" minlength="3" placeholder="Wprowadź imię" required>
+    <br>
+
+    <label>Nazwisko: </label>
+    <input type="text" class="pole" id="nazwisko" name="nazwisko" maxlength="57" minlength="3" placeholder="Wprowadź nazwisko" required>
+    <br>
+
+    <label>Hasło: </label>
+    <input type="password" class="pole" id="password" name="password" minlength="6" maxlength="30" placeholder="Hasło" required>
+    <br>
+
+    <label>E-mail: </label>
+    <input type="email" class="pole" id="email" name="email" required placeholder="E-mail">
+    <br>
+
+    <label>Data Urodzenia: </label>
+    <input type="date" class="pole" id="uro" name="uro" value="2013-03-14" required>
+    <br>
+
+    <label>Numer Domu: </label>
+    <input type="number" class="pole" id="nrDom" name="nrDom" max="10000" min="1" required placeholder="Nr Domu">
+    <br>
+
+
+
+
+
+
+    <label>Czy masz ukończone 18 lat? </label>
+    <div style="display: flex;">
+ 
+        <label>Tak, mam</label><input type="radio" id="18lat" name="18lat" value="mam" required>
+
+    </div>
+
+    <div style="display: flex;">
+        <label>Nie, nie mam</label><input type="radio" id="18lat" name="18lat" value="nie mam" required>
+    </div>
+    
+    <br>
+
+    <div style="display: flex;">
+        <label>Czy jesteś robotem? </label>
+        <input type="checkbox" required>
+    </div>
+    <br>
+
+    <input type="submit" value="Zarejestruj się!" id="send">
+   </form>
+</body>
+</html>
